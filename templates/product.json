@@ -339,7 +339,9 @@
               "padding-inline-start": "60px"
             },
             "layout": {
-              "flex-direction": "column"
+              "flex-direction": "column",
+              "justify-content": "center",
+              "align-items": "flex-start"
             },
             "color_scheme": "scheme-3"
           },
