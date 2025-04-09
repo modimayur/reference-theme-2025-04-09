@@ -344,10 +344,10 @@
             "color_scheme": "scheme-3"
           },
           "blocks": {
-            "text_LGtrzV": {
+            "text_kG6ddy": {
               "type": "text",
               "settings": {
-                "text": "<p>{{ closest.product.metafields.custom.feature_content.value.title.value }}</p>",
+                "text": "<h2>{{ closest.product.metafields.custom.feature_content.value.title.value }}</h2>",
                 "text_style": "",
                 "alignment": "start",
                 "size": {},
@@ -370,7 +370,7 @@
               "type": "link",
               "settings": {
                 "link": "",
-                "label": "Button label",
+                "label": "{{ closest.product.metafields.custom.feature_content.value.button_label.value }}",
                 "style_class": "button",
                 "open_in_new_tab": false,
                 "icon": "none",
@@ -387,7 +387,7 @@
             }
           },
           "block_order": [
-            "text_LGtrzV",
+            "text_kG6ddy",
             "text_3WGwnM",
             "link_fK6yqa"
           ]
