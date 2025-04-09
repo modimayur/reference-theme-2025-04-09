@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "eff0db31-5031-4cf7-b594-f534b4a21b27": {
@@ -11,20 +20,27 @@
             "size": {
               "width": "100%",
               "flex-grow": "1"
-            }
-          }
+            },
+            "spacing": {}
+          },
+          "blocks": {}
         },
         "c0e7c161-3f86-4580-b1d2-5d6f96428237": {
           "type": "group",
           "settings": {
+            "size": {},
             "spacing": {
-              "padding": "20px"
+              "padding-block-start": "20px",
+              "padding-inline-end": "20px",
+              "padding-block-end": "20px",
+              "padding-inline-start": "20px"
             },
             "layout": {
               "flex-direction": "column",
               "justify-content": "flex-start",
               "align-items": "flex-start",
-              "gap": "5px"
+              "row-gap": "5px",
+              "column-gap": "5px"
             },
             "color_scheme": ""
           },
@@ -32,52 +48,76 @@
             "8e624812-3736-4121-9762-3bb2c48e1b7c": {
               "type": "text",
               "settings": {
-                "text": "<p>{{ closest.product.vendor }}<\/p>",
+                "text": "<p>{{ closest.product.vendor }}</p>",
                 "text_style": "text-block-caption",
-                "alignment": "start"
-              }
+                "alignment": "start",
+                "size": {},
+                "spacing": {}
+              },
+              "blocks": {}
             },
             "product-title_MgtBgC": {
               "type": "product-title",
               "settings": {
                 "product": "{{ closest.product }}",
                 "heading_size": "h1",
-                "alignment": "start"
-              }
+                "alignment": "start",
+                "size": {},
+                "spacing": {}
+              },
+              "blocks": {}
             },
             "85c04f16-a58b-4d58-bc70-ad8f9d1e75a3": {
               "type": "price",
               "settings": {
-                "product": "{{ closest.product }}"
-              }
+                "product": "{{ closest.product }}",
+                "size": {},
+                "spacing": {}
+              },
+              "blocks": {}
             },
             "0ab4dad4-d9a4-4064-8512-5d6974e32100": {
               "type": "variant-picker",
               "settings": {
-                "product": "{{ closest.product }}"
-              }
+                "product": "{{ closest.product }}",
+                "size": {},
+                "spacing": {}
+              },
+              "blocks": {}
             },
             "13857f6b-f089-4d09-8bf0-f55ec052560d": {
               "type": "quantity-selector",
               "settings": {
-                "product": "{{ closest.product }}"
-              }
+                "product": "{{ closest.product }}",
+                "size": {},
+                "spacing": {}
+              },
+              "blocks": {}
             },
             "7e6064f3-e925-4883-b434-2d96eb09a467": {
               "type": "buy-buttons",
               "settings": {
                 "product": "{{ closest.product }}",
                 "show_dynamic_checkout": true,
+                "size": {},
                 "spacing": {
-                  "padding": "15px 0"
-                }
-              }
+                  "padding-block-start": "15px",
+                  "padding-inline-end": "0px",
+                  "padding-block-end": "15px",
+                  "padding-inline-start": "0px"
+                },
+                "layout": {}
+              },
+              "blocks": {}
             },
             "41c0675b-741c-4bc1-8edb-5291a98632e6": {
               "type": "product-description",
               "settings": {
-                "product": "{{ closest.product }}"
-              }
+                "product": "{{ closest.product }}",
+                "size": {},
+                "spacing": {}
+              },
+              "blocks": {}
             },
             "group_a3Nwet": {
               "type": "group",
@@ -86,31 +126,39 @@
                   "width": "100%"
                 },
                 "spacing": {
-                  "padding": "0"
+                  "padding-block-start": "0px",
+                  "padding-inline-end": "0px",
+                  "padding-block-end": "0px",
+                  "padding-inline-start": "0px"
                 },
                 "layout": {
                   "flex-direction": "column",
                   "align-items": "flex-start",
-                  "gap": "0px"
+                  "row-gap": "0px",
+                  "column-gap": "0px"
                 },
                 "color_scheme": ""
               },
               "blocks": {
                 "collapsible_row_WEBEnL": {
                   "type": "collapsible-row",
-                  "settings": {
-                  },
+                  "settings": {},
                   "blocks": {
                     "text_YBKTLB": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Designed for life in and out of the water, these shorts feature hydrophobic fabric for quick-drying comfort and two side pockets for your essentials.<\/p>",
+                        "text": "<p>Designed for life in and out of the water, these shorts feature hydrophobic fabric for quick-drying comfort and two side pockets for your essentials.</p>",
                         "text_style": "",
                         "alignment": "start",
+                        "size": {},
                         "spacing": {
-                          "padding": "15px"
+                          "padding-block-start": "15px",
+                          "padding-inline-end": "15px",
+                          "padding-block-end": "15px",
+                          "padding-inline-start": "15px"
                         }
-                      }
+                      },
+                      "blocks": {}
                     },
                     "collapsible-row-summary": {
                       "type": "collapsible-row-summary",
@@ -125,9 +173,11 @@
                           "settings": {
                             "icon": "leather",
                             "width": 22
-                          }
+                          },
+                          "blocks": {}
                         }
-                      }
+                      },
+                      "block_order": []
                     }
                   },
                   "block_order": [
@@ -136,19 +186,23 @@
                 },
                 "collapsible_row_EYqA3x": {
                   "type": "collapsible-row",
-                  "settings": {
-                  },
+                  "settings": {},
                   "blocks": {
                     "text_MgMBnY": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>We offer free worldwide express shipping on all orders. You'll receive your order an estimated 1–4 days after shipment.<\/p>",
+                        "text": "<p>We offer free worldwide express shipping on all orders. You'll receive your order an estimated 1–4 days after shipment.</p>",
                         "text_style": "",
                         "alignment": "start",
+                        "size": {},
                         "spacing": {
-                          "padding": "15px"
+                          "padding-block-start": "15px",
+                          "padding-inline-end": "15px",
+                          "padding-block-end": "15px",
+                          "padding-inline-start": "15px"
                         }
-                      }
+                      },
+                      "blocks": {}
                     },
                     "collapsible-row-summary": {
                       "type": "collapsible-row-summary",
@@ -163,9 +217,11 @@
                           "settings": {
                             "icon": "truck",
                             "width": 22
-                          }
+                          },
+                          "blocks": {}
                         }
-                      }
+                      },
+                      "block_order": []
                     }
                   },
                   "block_order": [
@@ -174,19 +230,23 @@
                 },
                 "collapsible_row_9p3U44": {
                   "type": "collapsible-row",
-                  "settings": {
-                  },
+                  "settings": {},
                   "blocks": {
                     "text_WMFJKg": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry.<\/p>",
+                        "text": "<p>Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry.</p>",
                         "text_style": "",
                         "alignment": "start",
+                        "size": {},
                         "spacing": {
-                          "padding": "15px"
+                          "padding-block-start": "15px",
+                          "padding-inline-end": "15px",
+                          "padding-block-end": "15px",
+                          "padding-inline-start": "15px"
                         }
-                      }
+                      },
+                      "blocks": {}
                     },
                     "collapsible-row-summary": {
                       "type": "collapsible-row-summary",
@@ -201,9 +261,11 @@
                           "settings": {
                             "icon": "heart",
                             "width": 22
-                          }
+                          },
+                          "blocks": {}
                         }
-                      }
+                      },
+                      "block_order": []
                     }
                   },
                   "block_order": [
@@ -235,11 +297,120 @@
         "c0e7c161-3f86-4580-b1d2-5d6f96428237"
       ],
       "settings": {
+        "spacing": {},
+        "layout": {},
+        "color_scheme": ""
+      }
+    },
+    "custom_section_CACNBX": {
+      "type": "custom-section",
+      "blocks": {
+        "image_Xci6D4": {
+          "type": "image",
+          "settings": {
+            "image": "{{ closest.product.metafields.custom.feature_content.value.image.value }}",
+            "object_fit": "cover",
+            "spacing": {},
+            "size": {
+              "width": "100%",
+              "flex-grow": "1",
+              "height": "100%",
+              "@media (--mobile)": {
+                "height": "auto"
+              }
+            }
+          },
+          "blocks": {}
+        },
+        "group_Q3LVLz": {
+          "type": "group",
+          "settings": {
+            "size": {
+              "width": "100%",
+              "height": "100%",
+              "@media (--mobile)": {
+                "height": "auto"
+              }
+            },
+            "spacing": {
+              "padding-block-start": "60px",
+              "padding-inline-end": "60px",
+              "padding-block-end": "60px",
+              "padding-inline-start": "60px"
+            },
+            "layout": {
+              "flex-direction": "column"
+            },
+            "color_scheme": "scheme-3"
+          },
+          "blocks": {
+            "text_LGtrzV": {
+              "type": "text",
+              "settings": {
+                "text": "<p>{{ closest.product.metafields.custom.feature_content.value.title.value }}</p>",
+                "text_style": "",
+                "alignment": "start",
+                "size": {},
+                "spacing": {}
+              },
+              "blocks": {}
+            },
+            "text_3WGwnM": {
+              "type": "text",
+              "settings": {
+                "text": "<p>{{ closest.product.metafields.custom.feature_content.value.primary_description | metafield_tag }}</p>",
+                "text_style": "",
+                "alignment": "start",
+                "size": {},
+                "spacing": {}
+              },
+              "blocks": {}
+            },
+            "link_fK6yqa": {
+              "type": "link",
+              "settings": {
+                "link": "",
+                "label": "Button label",
+                "style_class": "button",
+                "open_in_new_tab": false,
+                "icon": "none",
+                "icon_position": "left",
+                "size": {},
+                "spacing": {
+                  "padding-block-start": "10px",
+                  "padding-inline-end": "30px",
+                  "padding-block-end": "10px",
+                  "padding-inline-start": "30px"
+                }
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text_LGtrzV",
+            "text_3WGwnM",
+            "link_fK6yqa"
+          ]
+        }
+      },
+      "block_order": [
+        "image_Xci6D4",
+        "group_Q3LVLz"
+      ],
+      "settings": {
+        "spacing": {
+          "padding-block-start": "40px",
+          "padding-inline-end": "20px",
+          "padding-block-end": "40px",
+          "padding-inline-start": "20px"
+        },
+        "layout": {},
         "color_scheme": ""
       }
     }
   },
   "order": [
-    "eff0db31-5031-4cf7-b594-f534b4a21b27"
+    "eff0db31-5031-4cf7-b594-f534b4a21b27",
+    "custom_section_CACNBX"
   ]
 }
